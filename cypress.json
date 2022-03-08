@@ -1,0 +1,16 @@
+{
+  "chromeWebSecurity": false,
+  "supportFile": "cypress/support/index.js",
+  "video": false,
+  "defaultCommandTimeout": 20000,
+  "failOnStatusCode": false,
+  "viewportWidth": 1400,
+  "viewportHeight":1200,
+  "retries": {
+    "runMode": 1,
+    "openMode": 0
+  },
+  "env": {
+    "integrationFolder": "cypress/integration/project"
+  }
+}

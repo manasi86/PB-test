@@ -1,0 +1,33 @@
+{
+  "name": "pb-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manasi86/PB-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manasi86/PB-test/issues"
+  },
+  "homepage": "https://github.com/manasi86/PB-test#readme",
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.2",
+    "@types/jest": "^27.4.1",
+    "@types/mocha": "^9.1.0",
+    "@types/node": "^17.0.21",
+    "cypress": "^9.5.1"
+  },
+  "dependencies": {
+    "chance": "^1.1.8",
+    "cypress-xpath": "^1.6.2",
+    "dotenv": "^16.0.0",
+    "typescript": "^4.6.2"
+  }
+}
