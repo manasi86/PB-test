@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es5", "dom"],
+    "types": ["cypress", "node"]
+  },
+  "include": [
+    "**/*.ts",
+    "../node_modules/@types/jest/index.d.ts"
+  ],
+  "exclude": ["cypress_cache"]
+}
